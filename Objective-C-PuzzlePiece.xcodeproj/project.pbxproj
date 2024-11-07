@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D62FE0392CDC9D5600A6540E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62FE0152CDC9D5300A6540E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62FE01C2CDC9D5300A6540E;
+			remoteInfo = "Objective-C-PuzzlePiece";
+		};
+		D62FE0432CDC9D5600A6540E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D62FE0152CDC9D5300A6540E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D62FE01C2CDC9D5300A6540E;
+			remoteInfo = "Objective-C-PuzzlePiece";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62FE01D2CDC9D5300A6540E /* Objective-C-PuzzlePiece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-PuzzlePiece.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62FE0382CDC9D5600A6540E /* Objective-C-PuzzlePieceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-PuzzlePieceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62FE0422CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-PuzzlePieceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D62FE04A2CDC9D5600A6540E /* Exceptions for "Objective-C-PuzzlePiece" folder in "Objective-C-PuzzlePiece" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D62FE01C2CDC9D5300A6540E /* Objective-C-PuzzlePiece */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D62FE01F2CDC9D5300A6540E /* Objective-C-PuzzlePiece */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D62FE04A2CDC9D5600A6540E /* Exceptions for "Objective-C-PuzzlePiece" folder in "Objective-C-PuzzlePiece" target */,
+			);
+			path = "Objective-C-PuzzlePiece";
+			sourceTree = "<group>";
+		};
+		D62FE03B2CDC9D5600A6540E /* Objective-C-PuzzlePieceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-PuzzlePieceTests";
+			sourceTree = "<group>";
+		};
+		D62FE0452CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-PuzzlePieceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D62FE01A2CDC9D5300A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0352CDC9D5600A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE03F2CDC9D5600A6540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62FE0142CDC9D5300A6540E = {
+			isa = PBXGroup;
+			children = (
+				D62FE01F2CDC9D5300A6540E /* Objective-C-PuzzlePiece */,
+				D62FE03B2CDC9D5600A6540E /* Objective-C-PuzzlePieceTests */,
+				D62FE0452CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests */,
+				D62FE01E2CDC9D5300A6540E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D62FE01E2CDC9D5300A6540E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D62FE01D2CDC9D5300A6540E /* Objective-C-PuzzlePiece.app */,
+				D62FE0382CDC9D5600A6540E /* Objective-C-PuzzlePieceTests.xctest */,
+				D62FE0422CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D62FE01C2CDC9D5300A6540E /* Objective-C-PuzzlePiece */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE04B2CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePiece" */;
+			buildPhases = (
+				D62FE0192CDC9D5300A6540E /* Sources */,
+				D62FE01A2CDC9D5300A6540E /* Frameworks */,
+				D62FE01B2CDC9D5300A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE01F2CDC9D5300A6540E /* Objective-C-PuzzlePiece */,
+			);
+			name = "Objective-C-PuzzlePiece";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PuzzlePiece";
+			productReference = D62FE01D2CDC9D5300A6540E /* Objective-C-PuzzlePiece.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D62FE0372CDC9D5600A6540E /* Objective-C-PuzzlePieceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE0502CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePieceTests" */;
+			buildPhases = (
+				D62FE0342CDC9D5600A6540E /* Sources */,
+				D62FE0352CDC9D5600A6540E /* Frameworks */,
+				D62FE0362CDC9D5600A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62FE03A2CDC9D5600A6540E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE03B2CDC9D5600A6540E /* Objective-C-PuzzlePieceTests */,
+			);
+			name = "Objective-C-PuzzlePieceTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PuzzlePieceTests";
+			productReference = D62FE0382CDC9D5600A6540E /* Objective-C-PuzzlePieceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D62FE0412CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62FE0532CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePieceUITests" */;
+			buildPhases = (
+				D62FE03E2CDC9D5600A6540E /* Sources */,
+				D62FE03F2CDC9D5600A6540E /* Frameworks */,
+				D62FE0402CDC9D5600A6540E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D62FE0442CDC9D5600A6540E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D62FE0452CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests */,
+			);
+			name = "Objective-C-PuzzlePieceUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-PuzzlePieceUITests";
+			productReference = D62FE0422CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D62FE0152CDC9D5300A6540E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D62FE01C2CDC9D5300A6540E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D62FE0372CDC9D5600A6540E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D62FE01C2CDC9D5300A6540E;
+					};
+					D62FE0412CDC9D5600A6540E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D62FE01C2CDC9D5300A6540E;
+					};
+				};
+			};
+			buildConfigurationList = D62FE0182CDC9D5300A6540E /* Build configuration list for PBXProject "Objective-C-PuzzlePiece" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D62FE0142CDC9D5300A6540E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D62FE01E2CDC9D5300A6540E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D62FE01C2CDC9D5300A6540E /* Objective-C-PuzzlePiece */,
+				D62FE0372CDC9D5600A6540E /* Objective-C-PuzzlePieceTests */,
+				D62FE0412CDC9D5600A6540E /* Objective-C-PuzzlePieceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D62FE01B2CDC9D5300A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0362CDC9D5600A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0402CDC9D5600A6540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62FE0192CDC9D5300A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE0342CDC9D5600A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D62FE03E2CDC9D5600A6540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D62FE03A2CDC9D5600A6540E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62FE01C2CDC9D5300A6540E /* Objective-C-PuzzlePiece */;
+			targetProxy = D62FE0392CDC9D5600A6540E /* PBXContainerItemProxy */;
+		};
+		D62FE0442CDC9D5600A6540E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D62FE01C2CDC9D5300A6540E /* Objective-C-PuzzlePiece */;
+			targetProxy = D62FE0432CDC9D5600A6540E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D62FE04C2CDC9D5600A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-PuzzlePiece/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePiece";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62FE04D2CDC9D5600A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-PuzzlePiece/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePiece";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D62FE04E2CDC9D5600A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D62FE04F2CDC9D5600A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D62FE0512CDC9D5600A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePieceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-PuzzlePiece.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-PuzzlePiece";
+			};
+			name = Debug;
+		};
+		D62FE0522CDC9D5600A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePieceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-PuzzlePiece.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-PuzzlePiece";
+			};
+			name = Release;
+		};
+		D62FE0542CDC9D5600A6540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePieceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-PuzzlePiece";
+			};
+			name = Debug;
+		};
+		D62FE0552CDC9D5600A6540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-PuzzlePieceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-PuzzlePiece";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D62FE0182CDC9D5300A6540E /* Build configuration list for PBXProject "Objective-C-PuzzlePiece" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE04E2CDC9D5600A6540E /* Debug */,
+				D62FE04F2CDC9D5600A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE04B2CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePiece" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE04C2CDC9D5600A6540E /* Debug */,
+				D62FE04D2CDC9D5600A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE0502CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePieceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE0512CDC9D5600A6540E /* Debug */,
+				D62FE0522CDC9D5600A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62FE0532CDC9D5600A6540E /* Build configuration list for PBXNativeTarget "Objective-C-PuzzlePieceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FE0542CDC9D5600A6540E /* Debug */,
+				D62FE0552CDC9D5600A6540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D62FE0152CDC9D5300A6540E /* Project object */;
+}
